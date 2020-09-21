@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 
 int main()
@@ -11,6 +12,7 @@ int main()
     {
         somme+=rand()%20;
     }
-    printf("La moyenne est de %f", somme);
+    somme/=30;
+    printf("La moyenne est de %.2f", somme);
     return 0;
 }
