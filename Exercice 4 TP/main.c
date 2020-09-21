@@ -5,9 +5,10 @@ int main()
 {
     int i, n, somme;
     somme=0;
+
     printf("entrez un nombre : ");
-    scanf("%d",n);
-    for(i=1;i<n;i++)
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
         somme+=i;
     }
